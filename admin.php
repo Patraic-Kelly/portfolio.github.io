@@ -2,7 +2,9 @@
 /** User Database Functions
  * @author pkelly
  * @date 2/12/21
- * @log transfer 
+ * @log refactored code to call db through database.php
+ *      moved functionality for user management to userDB.php
+ *      moved mod functionality to modDB.php
  */
 
 
