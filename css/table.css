@@ -1,0 +1,30 @@
+/*************************************************
+***
+*Original Author:Patraic Kelly                                 
+*Date Created:  4/19/20                                    
+*Version:                                         
+*Date Last Modified: 10/2/20                              
+*Modified by:PK                        
+*Modification log: Migrated from original                                 
+***
+******************************************* */
+
+caption {
+  font-size: 26px;
+  font-family: "Gentium Basic", Arial, Helvetica, sans-serif;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+th {
+  background-color: rgb(119, 119, 119);
+}
+
+td {
+  padding: 7px;
+  background-color: rgb(141, 141, 141);
+}

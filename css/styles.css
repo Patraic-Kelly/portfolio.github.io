@@ -1,0 +1,200 @@
+/*************************************************
+***
+*Original Author:Patraic Kelly                                 
+*Date Created:  4/19/20                                    
+*Version:                                         
+*Date Last Modified: 10/2/20                              
+*Modified by:PK                        
+*Modification log:
+*   12/9/20 - Migrated styles from original file
+*           - Font, background, color values
+***
+******************************************* */
+
+@font-face {
+  font-family: "amaranthregular";
+  src: url("../fonts/amaranth-regular-webfont.woff2") format("woff2"),
+    url("../fonts/amaranth-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  box-sizing: border-box;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  box-sizing: inherit;
+  margin: 0;
+  background: url(../img/background6.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* themed break styles */
+.landHr {
+  width: 25%;
+  background: rgb(66, 66, 66);
+  border: 0.8px solid rgb(69, 69, 70);
+  border-radius: 4px;
+}
+
+/* Subtitle Plaque */
+.landSub {
+  border-radius: 24px;
+  background-color: rgba(117, 117, 119, 0.609);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+}
+
+/* navbar blur and opacity */
+nav {
+  background-color: rgba(20, 20, 31, 0.4);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+}
+
+/* Name bar */
+.navbar-brand {
+  background-color: rgba(0, 0, 0, 50%);
+  border-radius: 50px 50px 50px 50px;
+}
+
+.navbar-brand strong {
+  font-family: "Gentium Basic", Arial, Helvetica, sans-serif;
+  color: cornflowerblue;
+}
+
+.nav-item {
+  color: rgb(17, 17, 17);
+  text-shadow: 1.5px 1px 2px rgb(69, 69, 69);
+  text-decoration: none;
+  text-align: center;
+  background-image: radial-gradient(#92464b, #804747, #551e22, #1f0308);
+  border: 1px solid rgb(19, 19, 19);
+  border-radius: 20px;
+}
+
+.modLink a:active {
+      color: rgb(42, 32, 179) !important;
+}
+
+.modLink a:visited {
+      color:rgb(8, 95, 0) !important;
+}
+
+/* error page main styling */
+.err {
+  margin-top: 15%;
+  background-color: rgba(45, 45, 45, 0.1);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+}
+
+.err h2 {
+  font-size: 4vw;
+}
+
+.err h3 {
+  font-size: 3vw;
+}
+
+#errHome {
+  font-size: 3vw;
+  color: rgb(42, 32, 179);
+}
+/*end error page section*/
+
+.examples {
+  font-family: "amaranthregular", Arial, Helvetica, sans-serif;
+  background-color: rgb(106, 101, 133);
+}
+
+/* Footer styles */
+.bg-grey {
+  background: #292929;
+}
+.logo-footer {
+  margin-bottom: 40px;
+}
+footer {
+  bottom: 0;
+  color: grey;
+  justify-content: center;
+}
+footer p,
+a {
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+}
+footer h6 {
+  font-family: "Playfair Display", serif;
+  margin-bottom: 20px;
+  position: relative;
+}
+footer h6:after {
+  position: absolute;
+  content: "";
+  background: grey;
+  width: 20%;
+  height: 1px;
+  left: 40%;
+  bottom: -20px;
+}
+.btn-footer {
+  color: grey;
+
+  text-decoration: none;
+  border: 1px solid;
+  border-radius: 43px;
+  font-size: 13px;
+  padding: 7px 30px;
+  line-height: 47px;
+}
+.btn-footer:hover {
+  text-decoration: none;
+}
+.form-footer input[type="text"] {
+  border: none;
+  border-radius: 16px 0 0 16px;
+  outline: none;
+  padding-left: 10px;
+}
+::placeholder {
+  font-size: 10px;
+  padding-left: 10px;
+  font-style: italic;
+}
+.form-footer input[type="button"] {
+  border: none;
+  background: #232323;
+  margin-left: -5px;
+  color: #fff;
+  outline: none;
+  border-radius: 0 16px 16px 0;
+  padding: 2px 12px;
+}
+.social {
+  text-align: center;
+  background: #794545;
+}
+footer ul li {
+  list-style: none;
+  display: block;
+}
+footer ul {
+  padding-left: 0;
+}
+footer ul li a {
+  text-decoration: none;
+  color: grey;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  color: #f5f5f5 !important;
+}
+.logo-part {
+  border-right: 1px solid grey;
+  height: 100%;
+}
