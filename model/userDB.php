@@ -2,7 +2,7 @@
 /** User Database Functions
  * @author pkelly
  * @date 2/12/21
- * @log transfer 
+ * @log Create userDB.php for user management functionality
  */
 
 function addUser($userName, $userLast, $userEmail, $userMessage) {
