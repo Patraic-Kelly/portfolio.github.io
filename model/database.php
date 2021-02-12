@@ -4,7 +4,7 @@
  *
  * @author pkelly
  * @date 2/12/21
- * @log transfer 
+ * @log Create class for Database access
  */
 class Database {
     
