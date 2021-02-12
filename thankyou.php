@@ -4,8 +4,8 @@
 #Date Created: 4/19/20                                                                                
 #Date Last Modified: 2/12/21
 #Modified by: PK               
-#Modification log: Moved add user to userDB.php  
--                                                    
+#Modification log: Moved user management functionality userDB.php  
+-                  mod functionalities to modDB.php                                                  
  --
 ----------------------------------------------------->
 <?php
