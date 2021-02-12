@@ -4,7 +4,7 @@ Patraic Kelly Portfolio Test Build
 
 Relevant files:
 
-Root:
+ROOT:
 
 contact.html
 
@@ -15,7 +15,7 @@ admin.php
 login.php
 
 
-Model:
+MODEL:
 
 database.php  
 
