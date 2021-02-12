@@ -2,4 +2,8 @@
 
 Patraic Kelly Portfolio Test Build
 
-**FORMS AND ADMIN PAGE NONFUNCTIONAL ON THIS REPOSITORY**
+Relevant files:
+contact.html
+thankyou.php
+admin.php
+login.php
