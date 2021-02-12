@@ -5,8 +5,8 @@
 #Date Created: 4/19/20                                                                                
 #Date Last Modified: 1/29/21
 #Modified by: PK               
-#Modification log: build form for use with sql.                                    
-~~
+#Modification log: Create login.php Add navigation to all pages                                    
+~                    login links to admin.php
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <html lang="en">
   <head>
