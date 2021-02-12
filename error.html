@@ -1,0 +1,121 @@
+<!---------------------index.html-------------------------
+--
+#Original Author:Patraic Kelly                                   
+#Date Created: 4/19/20                                                                                
+#Date Last Modified: 12/8/20-12/9/20
+#Modified by: PK               
+#Modification log: - Migrated from original, converted to bootstrap
+-                  - Created landing section
+-                  - Updated Navbar to sticky
+-                  - Added front page content
+-                  - Updated footer, added social media link icons                                    
+ --
+----------------------------------------------------->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Patraic's Personal Portfolio" />
+    <meta name="author" content="Patraic Kelly" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Patraic Kelly personal Portfolio</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/favicon-16x16.png"
+    />
+    <link rel="manifest" href="img/site.webmanifest" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gentium+Basic:ital,wght@1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <!-- Sticky navbar -->
+    <header class="header sticky-top">
+      <nav class="navbar navbar-expand-sm navbar-dark py-1 shadow-sm">
+        <div class="container-fluid m-0">
+          <a class="navbar-brand px-2 m-0" href="#">
+            <strong class="h1 mb-0 m-0 font-weight-bold"
+              >Patraic Kelly</strong
+            ></a
+          >
+          <button
+            class="navbar-toggler navbar-toggler-right"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item mx-1 active">
+                <a class="nav-link px-4" href="index.html">Home</a>
+              </li>
+              <li class="nav-item mx-1 active">
+                <a class="nav-link px-4" href="skills.html">Skills</a>
+              </li>
+              <li class="nav-item mx-1 active">
+                <a class="nav-link px-4" href="examples.html">Examples</a>
+              </li>
+              <li class="nav-item mx-1 active">
+                <a class="nav-link px-4" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- Landing Section -->
+      <section class="header err text-center">
+        <div class="container py-5">
+          <h2 class="mb-4 mx-0 font-weight-bold">
+            Looks like something went wrong!
+          </h2>
+          <hr class="landHr" />
+          <div class="row">
+            <div class="col-sm-4 px-0"></div>
+            <div class="col-sm-4 px-0">
+              <h3 class="mx-0 mt-4 display-5 font-weight-bold mb-1">
+                Return to <a id="errHome" href="index.html">Home</a>
+              </h3>
+              <hr class="landHr" />
+            </div>
+            <div class="col-sm-4 px-0"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
