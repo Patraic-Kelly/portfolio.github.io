@@ -3,10 +3,11 @@
 ~~
 #Original Author:Patraic Kelly                                   
 #Date Created: 4/19/20                                                                                
-#Date Last Modified: 1/29/21
+#Date Last Modified: 2/12/21
 #Modified by: PK               
 #Modification log: Create login.php Add navigation to all pages                                    
 ~                    login links to admin.php
+~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <html lang="en">
   <head>

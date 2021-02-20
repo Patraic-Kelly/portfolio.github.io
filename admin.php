@@ -12,6 +12,9 @@ require_once('model/database.php');
 require_once('model/userDB.php');
 require_once('model/modDB.php');
 
+require_once('util/secure_conn.php');
+require_once('util/valid_admin.php');
+
 $dsn = 'mysql:host=localhost;dbname=pkptfolio';
 $username = 'pk_admin';
 $password = 'Pa$$w0rd';
@@ -30,18 +33,6 @@ if ($action == 'list_users') {
     try {
         $mods = getMods();
         $users = getUserByModID($modID);
-////////////////////////////////////////////////////////        
-//        $query = 'SELECT * FROM mods ORDER BY modID;';
-//        $statement = $db->prepare($query);
-//        $statement->execute();
-//        $mods = $statement;
-////////////////////////////////////////////////////////        
-/////////////////////////////////////////////////////////////////////////////////////////////
-//        $query2 = 'SELECT * FROM users WHERE users.modID = :modID ORDER BY submitDate;';
-//        $statement2 = $db->prepare($query2);
-//        $statement2->bindValue(':modID', $modID);
-//        $statement2->execute();
-/////////////////////////////////////////////////////////////////////////////////////////////
     } catch (PDOException $ex) {
         echo 'Error: ' . $ex->getMessage();
     }
@@ -49,18 +40,11 @@ if ($action == 'list_users') {
     $userID = filter_input(INPUT_POST, 'userID', FILTER_VALIDATE_INT);
     try {
         delUser($userID);
-////////////////////////////////////////////////////////////////
-//        $query = 'DELETE FROM users WHERE userID = :userID;';
-//        $statement = $db->prepare($query);
-//        $statement->bindValue(':userID', $userID);
-//        $statement->execute();
-//        $statement->closeCursor();
-///////////////////////////////////////////////////////////////
+
         header("Location: admin.php");
     } catch (PDOException $ex) {
         echo 'Delete Error: ' . $ex->getMessage();
     }
-    //delete record
 }
 ?>
 <!---------------------admin.php-------------------------
